@@ -1,0 +1,738 @@
+main{
+    overflow-x: hidden;
+}
+
+section#top-destinations{
+    .container{
+        padding: 38px 0 80px 0;
+        box-sizing: border-box;
+        margin: 0 auto;
+        .title-wrap {
+            margin-top: 120px;
+        }
+        h4{
+            line-height: 40px;
+        }
+    }
+    .information{
+        position: absolute;
+        margin: -105px 10px 0 10px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        box-shadow: 0 0 30px  rgba(52, 52, 52, 0.15);
+        padding: 19px 0;
+        box-sizing: border-box;
+        width: 1180px;
+        background-color: white;
+        ul{
+            display: -webkit-box;
+            display: -moz-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            :last-of-type{
+                border: none;
+            }
+            li{
+                flex-grow:1;
+                flex-basis:100px;
+                flex-shrink:1;
+                text-align: center;
+                border-right: 1px solid #717171;
+                .number{
+                    line-height: 30px;
+                    text-transform: uppercase;
+                }
+                .description{
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    .sailboat{
+        margin-top: 80px;
+        ul{
+            display: -webkit-box;
+            display: -moz-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            li{
+                margin-bottom: 30px;
+                padding-left: 15px;
+                padding-right: 15px;
+                a{
+                    display: block;
+                    position: relative;
+                    max-width: 50%;
+                    height: auto;
+                }
+                flex-grow:1;
+                flex-basis: auto;
+                flex-shrink:1;
+                text-align: center;
+                .quantity-title-wrap{
+                    padding: 30px;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: space-between;
+                    position: absolute;
+                    top:0;
+                    right:0;
+                    bottom: 0;
+                    left: 0;
+                    width:100%;
+
+                    .quantity{
+                        display: block;
+                        background-color: #e7434e;
+                        max-width: 82px;
+                        padding: 12px 10px;
+                        border-radius: 5px;
+                        img {
+                            padding-right: 11px;
+                            box-sizing: border-box;
+                        }
+                    }
+                    .title-wrap{
+                        color: white;
+                        text-align: left;
+                        margin-bottom: 0;
+                        .title{
+                            line-height: 32px;
+                        }
+                        .description{
+                            line-height: 21px;
+                        }
+                    }
+                }
+            }
+        }
+        .btn{
+            text-transform: uppercase;
+            line-height: 22px;
+            border: 1px solid rgba(38, 38, 38, 0.3);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            width: 308px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 68px;
+        }
+    }
+}
+section#have-your-own-boat{
+    background: url("../images/photo-1452065656801-6c60b6e7cbc5.png") #555 top no-repeat;
+    background-size: cover ;
+    .container{
+        padding:180px 15px 159px 15px;
+        .title-wrap{
+            margin-top: 0;
+            h2{
+                line-height: 85px;
+            }
+            h3{
+                line-height: 45px;
+                text-transform: uppercase;
+            }
+        }
+        .btn{
+            text-transform: uppercase;
+            line-height: 22px;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            background-color: #e7434e;
+            width: 320px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 19px 0;
+            margin-top: 86px;
+        }
+    }
+}
+section#featured-boats{
+    .container{
+        padding: 100px 0 87px 0;
+        box-sizing: border-box;
+        .title-wrap{
+            margin-top: 0;
+            h4{
+                line-height: 30px;
+            }
+            .description{
+                line-height: 22px;
+                margin-bottom: 93px;
+            }
+        }
+        .permit{
+            ul {
+                display: -webkit-box;
+                display: -moz-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                li {
+                    margin-bottom: 24px;
+                    padding-left: 13px;
+                    padding-right: 13px;
+                    box-sizing: border-box;
+                    flex-grow:1;
+                    flex-basis: auto;
+                    flex-shrink:1;
+                    text-align: left;
+                    a {
+                        position: relative;
+                        display: block;
+                    }
+                    .price-title-wrap {
+                        padding: 30px;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: space-between;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        color: white;
+                        .title{
+                            line-height: 40px;
+                        }
+                        .description{
+                            padding: 0;
+                        }
+                        .price{
+                            background-color: #e7434e;
+                            width:105px;
+                            line-height: 22px;
+                            padding: 10px 0;
+                            border-radius: 5px;;
+                            text-align: center;
+                        }
+                        .description{
+                            float: left;
+                            padding-right: 30px;
+                        }
+                        .quantity-title-wrap{
+                            .berths{
+                                background: url("../images/icon.png") no-repeat;
+                                float: left;
+                                text-align: right;
+                                padding-left: 30px;
+                            }
+                        }
+
+                    }
+
+                }
+            }
+        }
+        .btn{
+            border: 1px solid rgba(38, 38, 38, 0.3);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            width: 233px;
+            text-align: center;
+            margin: 0 auto;
+            text-transform: uppercase;
+            padding: 21px 0;
+            margin-top: 76px;
+        }
+    }
+}
+
+
+
+
+@media (min-width: 798px) and (max-width: 1200px) {
+    main{
+        .container {
+            max-width: 1200px;
+            .title-wrap{
+                margin-top: 80px;
+            }
+        }
+        section#top-destinations{
+            .information{
+                position: absolute;
+                margin: -105px 10px 0 10px;
+                border-radius: 5px;
+                box-shadow: 0 0 30px  rgba(52, 52, 52, 0.15);
+                padding: 19px 0;
+                box-sizing: border-box;
+                max-width: 778px;
+                background-color: white;
+                ul{
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-around;
+                    :last-of-type{
+                        border: none;
+                    }
+                    li{
+                        flex-grow:1;
+                        flex-basis:100px;
+                        flex-shrink:1;
+                        text-align: center;
+                        border-right: 1px solid #717171;
+                        .number{
+                            line-height: 30px;
+                            text-transform: uppercase;
+                        }
+                        .description{
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+            .sailboat{
+                margin-top: 82px;
+                ul{
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+
+                    li{
+                        margin-bottom: 30px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        max-width: 369px;
+                        a{
+                            display: block;
+                            position: relative;
+                            max-width: 369px;
+                            height: auto;
+                        }
+                        flex-grow:1;
+                        flex-basis: auto;
+                        flex-shrink:1;
+                        text-align: center;
+                        .quantity-title-wrap{
+                            padding: 30px;
+                            display: flex;
+                            flex-flow: column nowrap;
+                            justify-content: space-between;
+                            position: absolute;
+                            top:0;
+                            right:0;
+                            bottom: 0;
+                            left: 0;
+                            width:100%;
+
+                            .quantity{
+                                display: block;
+                                background-color: #e7434e;
+                                max-width: 82px;
+                                padding: 12px 10px;
+                                border-radius: 5px;
+                                img {
+                                    padding-right: 11px;
+                                    box-sizing: border-box;
+                                }
+                            }
+                            .title-wrap{
+                                color: white;
+                                text-align: left;
+                                margin-bottom: 0;
+                                .title{
+                                    line-height: 32px;
+                                }
+                                .description{
+                                    line-height: 21px;
+                                }
+                            }
+                        }
+                    }
+                    li.first{
+                        max-width: 770px;
+                        a{
+                            max-width: 770px;
+                        }
+                    }
+                }
+            }
+        }
+        section#featured-boats{
+            .container {
+                max-width: 990px;
+                .permit {
+                    ul {
+                        display: -webkit-box;
+                        display: -moz-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                        li {
+                            margin-bottom: 24px;
+                            padding-left: 13px;
+                            padding-right: 13px;
+                            box-sizing: border-box;
+                            flex-grow: 1;
+                            flex-basis: auto;
+                            flex-shrink: 1;
+                            text-align: center;
+                            max-width: 574px;
+                            a {
+                                position: relative;
+                                display: block;
+                            }
+                            .price-title-wrap {
+                                padding: 30px;
+                                display: flex;
+                                flex-flow: column nowrap;
+                                justify-content: space-between;
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                bottom: 0;
+                                left: 0;
+                                max-width: 100%;
+                                color: white;
+                                .title {
+                                    text-align: left;
+                                    line-height: 40px;
+                                }
+                                .description {
+                                    padding: 0;
+                                }
+                                .price {
+                                    background-color: #e7434e;
+                                    width: 105px;
+                                    line-height: 22px;
+                                    padding: 10px 0;
+                                    border-radius: 5px;
+                                    -moz-border-radius: 5px;
+                                    -webkit-border-radius: 5px;
+                                    text-align: center;
+                                }
+                                .description{
+                                    float: left;
+                                    padding-right: 30px;
+                                }
+                                .quantity-title-wrap{
+                                    .berths{
+                                        background: url("../images/icon.png") no-repeat;
+                                        float: left;
+                                        text-align: right;
+                                        padding-left: 30px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (min-width: 1000px) and (max-width: 1199px){
+    main {
+        .container {
+            max-width: 990px;
+            .title-wrap {
+                margin-top: 130px;
+            }
+        }
+        section#top-destinations {
+            .information {
+                position: absolute;
+                margin: -105px 10px 0 10px;
+                border-radius: 5px;
+                box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+                padding: 19px 0;
+                box-sizing: border-box;
+                max-width: 970px;
+                background-color: white;
+                ul {
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-around;
+                    :last-of-type {
+                        border: none;
+                    }
+                    li {
+                        flex-grow: 1;
+                        flex-basis: 100px;
+                        flex-shrink: 1;
+                        text-align: center;
+                        border-right: 1px solid #717171;
+                        .number {
+                            line-height: 30px;
+                            text-transform: uppercase;
+                        }
+                        .description {
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 797px) {
+    main{
+        .container {
+            max-width: 700px;
+        }
+        section#top-destinations{
+            .information{
+                display: none;
+                padding: 0;
+                box-sizing: border-box;
+                max-width: 0;
+                background-color: white;
+                ul{
+                    display:none;
+                    :last-of-type{
+                        border: none;
+                    }
+                    li{
+                        display: none;
+                        .number{
+                            line-height: 0;
+                            text-transform: uppercase;
+                        }
+                        .description{
+                            line-height: 0;
+                        }
+                    }
+                }
+            }
+            .sailboat{
+                margin-top: 82px;
+                ul{
+                    display: -webkit-box;
+                    display: -moz-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+
+                    li{
+                        margin-bottom: 30px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        max-width: 369px;
+                        a{
+                            display: block;
+                            position: relative;
+                            max-width: 369px;
+                            height: auto;
+                            img{
+                                max-width: 369px;
+                            }
+                        }
+                        flex-grow:1;
+                        flex-basis: auto;
+                        flex-shrink:1;
+                        text-align: center;
+                        .quantity-title-wrap{
+                            padding: 30px;
+                            display: flex;
+                            flex-flow: column nowrap;
+                            justify-content: space-between;
+                            position: absolute;
+                            top:0;
+                            right:0;
+                            bottom: 0;
+                            left: 0;
+                            width:100%;
+
+                            .quantity{
+                                display: block;
+                                background-color: #e7434e;
+                                max-width: 82px;
+                                padding: 12px 10px;
+                                border-radius: 5px;
+                                img {
+                                    padding-right: 11px;
+                                    box-sizing: border-box;
+                                }
+                            }
+                            .title-wrap{
+                                color: white;
+                                text-align: left;
+                                margin-bottom: 0;
+                                .title{
+                                    line-height: 32px;
+                                }
+                                .description{
+                                    line-height: 21px;
+                                }
+                            }
+                        }
+                    }
+                    li.first{
+                        max-width: 770px;
+                        flex-grow:2;
+                        flex-basis: auto;
+                        flex-shrink: 3;
+                        a{
+                            max-width: 770px;
+                            img{
+                                max-width: 770px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section#have-your-own-boat{
+            .container{
+                padding:120px 15px 90px 15px;
+                .title-wrap{
+                    margin-top: 0;
+                    h2{
+                        line-height: 54px;
+                        padding-bottom: 18px;
+                    }
+                    h3{
+                        line-height: 31px;
+                        text-transform: uppercase;
+                    }
+                }
+                .btn{
+                    text-transform: uppercase;
+                    line-height: 19px;
+                    border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    background-color: #e7434e;
+                    width: 250px;
+                    text-align: center;
+                    margin: 0 auto;
+                    padding: 12px 0;
+                    margin-top: 55px;
+                }
+            }
+        }
+        section#featured-boats{
+            .container {
+                max-width: 500px;
+                .permit {
+                    ul {
+                        display: -webkit-box;
+                        display: -moz-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                        li {
+                            margin-bottom: 24px;
+                            padding-left: 13px;
+                            padding-right: 13px;
+                            box-sizing: border-box;
+                            flex-grow: 1;
+                            flex-basis: auto;
+                            flex-shrink: 1;
+                            text-align: center;
+                            max-width: 574px;
+                            a {
+                                position: relative;
+                                display: block;
+                            }
+                            .price-title-wrap {
+                                padding: 30px;
+                                display: flex;
+                                flex-flow: column nowrap;
+                                justify-content: space-between;
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                bottom: 0;
+                                left: 0;
+                                max-width: 100%;
+                                color: white;
+                                .title {
+                                    text-align: left;
+                                    line-height: 40px;
+                                }
+                                .description {
+                                    padding: 0;
+                                }
+                                .price {
+                                    background-color: #e7434e;
+                                    width: 105px;
+                                    line-height: 22px;
+                                    padding: 10px 0;
+                                    border-radius: 5px;
+                                    -moz-border-radius: 5px;
+                                    -webkit-border-radius: 5px;
+                                    text-align: center;
+                                }
+                                .description {
+                                    float: left;
+                                }
+                                .berths{
+                                    float: right;
+                                    padding-right: 345px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

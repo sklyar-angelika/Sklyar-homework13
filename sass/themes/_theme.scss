@@ -1,0 +1,71 @@
+header{
+    background: url("../images/ebjigrh3tcehf7unlq5e-sailing-5--1-.png") #555 top no-repeat;
+    background-size: cover;
+    a, h1, h3{
+        color: white;
+    }
+    input{
+        background-color: white;
+    }
+}
+
+button{
+    background-color: #e7434e;
+}
+
+
+h1, h3, h4{
+    margin: 0;
+}
+
+h4{
+    color: #343435;;
+}
+
+.description{
+    color: #717171;
+    padding-top: 15px;
+}
+
+.number{
+    color: #343434;
+}
+
+
+.sailboat{
+    color: white;
+    .description{
+        color: white;
+    }
+    .quantity{
+        color: white;
+    }
+    .btn{
+        color:#343434;
+    }
+}
+
+section#have-your-own-boat{
+    color: white;
+    a{
+        color: white;
+    }
+}
+
+.permit{
+    .description{
+        color: white;
+    }
+}
+
+section#featured-boats{
+    .btn{
+        color:#343434;
+    }
+}
+
+.footer-icons{
+    a{
+        background-color: #717171;
+    }
+}
